@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+header {
+    @apply h-15v flex flex-row mx-10 p-6 bg-red-200 justify-between;
+}
+
+.titulo {
+    @apply text-5xl
+}
+
+.menu {
+    @apply text-3xl
+}
+
+nav {
+    @apply h-5v flex flex-row mx-10 p-2 bg-red-400 justify-between;
+}
+
+main {
+    @apply h-70v flex flex-col mx-10 p-2 bg-red-50 overflow-auto;
+}
+
+footer {
+    @apply h-10v flex flex-col mx-10 p-2 bg-red-800 text-white;
+}
